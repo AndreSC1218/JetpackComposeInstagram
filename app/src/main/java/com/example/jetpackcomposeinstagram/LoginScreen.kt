@@ -210,7 +210,7 @@ fun Password(password: String, onTextChanged: (String) -> Unit) {
 fun Email(email: String, onTextChanged: (String) -> Unit) {
     TextField(
         value = email,
-        onValueChange = { onTextChanged(it) },
+        onValueChange = { onTextChanged(it)},
         modifier = Modifier.fillMaxWidth().border(
             border = BorderStroke(0.5.dp, Color(0XFFB2B2B2)),
             shape = MaterialTheme.shapes.medium
